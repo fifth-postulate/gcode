@@ -1,0 +1,22 @@
+{
+  "name": "gcode",
+  "description": "A game for learning gcode",
+  "main": "index.html",
+  "authors": [
+    "Daan van Berkel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "game",
+    "gcode"
+  ],
+  "homepage": "https://github.com/fifth-postulate/gcode",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
