@@ -2,18 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Flexbox Froggy - A game for learning CSS flexbox</title>
+    <title>GCode - A game for learning controlling machines</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url"           content="http://flexboxfroggy.com">
+    <meta property="og:url"           content="https://github.com/fifth-postulate/gcode">
     <meta property="og:type"          content="website">
-    <meta property="og:title"         content="Flexbox Froggy">
-    <meta property="og:description"   content="A game for learning CSS flexbox">
-    <meta property="og:image"         content="http://flexboxfroggy.com/images/screenshot.png">
-    <meta property="fb:app_id"        content="916849395036923">
-    <meta name="twitter:url"          content="http://flexboxfroggy.com">
-    <meta name="twitter:title"        content="Flexbox Froggy">
-    <meta name="twitter:description"  content="A game for learning CSS flexbox">
-    <meta name="twitter:image"        content="http://flexboxfroggy.com/images/screenshot.png">
+    <meta property="og:title"         content="GCode">
+    <meta property="og:description"   content="A game for learning controlling machines">
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans|Fredoka+One|Source+Code+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -36,7 +30,7 @@
             <div id="labelReset" class="translate">Reset</div>
           </div>
         </div>
-        <h1>Flexbox Froggy</h1>
+        <h1>GCode</h1>
         <p id="instructions"></p>
         <p id="docs"></p>
       </div>
@@ -49,45 +43,15 @@
         </div>
         <button id="next" class="translate">Next</button>
       </div>
-      <div id="share">
-        <p class="social">
-          <span id="tweet">
-            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a>
-            <a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>
-          </span>
-          <span class="fb-like" data-href="http://flexboxfroggy.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></span>
-        </p>
-      </div>
       <div id="credits">
         <p>
-          <span id="labelFooter" class="translate">Flexbox Froggy is created by</span>
-          <a href="http://thomaspark.co">Thomas Park</a> •
-          <a href="https://github.com/thomaspark/flexboxfroggy/">GitHub</a> •
-          <a href="https://twitter.com/thomashpark">Twitter</a>
+          <span id="labelFooter" class="translate">GCode is created by</span>
+          <a href="http://dvberkel.nl">Daan van Berkel</a> •
+          <a href="https://github.com/fifth-postulate/gcode">GitHub</a> •
+          <a href="https://twitter.com/daan_van_berkel">Twitter</a>
         </p>
         <p class="languages">
           <a href="#en">English</a> •
-          <a href="#es">Español</a> •
-          <a href="#fr">Français</a> •
-          <a href="#de">Deutsch</a> •
-          <a href="#pt-br">Português</a> •
-          <a href="#it">Italiano</a> •
-          <a href="#sv">Svenska</a> •
-          <a href="#pl">Polski</a> •
-          <a href="#cs">Česky</a> •
-          <a href="#hu">Magyar</a> •
-          <a href="#bg">Български</a> •
-          <a href="#lt">Lietuvių</a> •
-          <a href="#uk">Українська</a> •
-          <a href="#ru">Русский</a> •
-          <a href="#tr">Türkçe</a> •
-          <a href="#fa">فارسی</a> •
-          <a href="#zh-cn">简体中文</a> •
-          <a href="#zh-tw">繁體中文</a> •
-          <a href="#ja">日本語</a> •
-          <a href="#ko">한국어</a> •
-          <a href="#vi">Tiếng Việt</a> •
-          <a href="#eo">Esperanto</a>
         </p>
       </div>
     </section>
@@ -105,15 +69,5 @@
     <script src="js/docs.js"></script>
     <script src="js/messages.js"></script>
     <script src="js/game.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-    </script>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916849395036923";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
   </body>
 </html>
